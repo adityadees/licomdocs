@@ -1,22 +1,13 @@
 {
-  "name": "nextra-docs-template",
+  "name": "licomdocs",
   "version": "0.0.1",
-  "description": "Nextra docs template",
+  "description": "LINCOMDOCS - LINUX COMMAND LINE DOCS CHEAT SHEET",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adityadees/lincomdocs.git"
-  },
-  "author": "Shu Ding <g@shud.in>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/adityadees/lincomdocs/issues"
-  },
-  "homepage": "https://github.com/adityadees/lincomdocs#readme",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",

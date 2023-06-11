@@ -10,6 +10,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'LINCOMDOCS - LINUX COMMAND LINE DOCS CHEAT SHEET',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – LINCOMDOCS'
+    }
+  }
 }
 
 export default config
